@@ -23,11 +23,6 @@ It's a fun two-player game where you play against another human by taking turns 
 
 - Dart SDK installed on your machine.  
   You can download it from [https://dart.dev/get-dart](https://dart.dev/get-dart)
-- or you can run the code in [this](https://www.tutorialspoint.com/execute_dart_online.php) dart compiler, it supports dart:io
-- important note: if you want to use the compiler:
-  - copy the 2 files from bin folder to the compiler (board_brain.dart first)
-  - delete this line (import 'board_brain.dart';) from tic_tac_toe_game.dart file
-  - excecute the code
   
 ### Running the Game
 
@@ -37,3 +32,9 @@ It's a fun two-player game where you play against another human by taking turns 
 
    ```bash
    dart run bin\tic_tac_toe_game.dart
+
+- or you can run the code in [this](https://www.tutorialspoint.com/execute_dart_online.php) dart compiler, it supports dart:io
+- important note: if you want to use the compiler:
+  - copy the 2 files from bin folder to the compiler (board_brain.dart first)
+  - delete this line (import 'board_brain.dart';) from tic_tac_toe_game.dart file
+  - excecute the code
